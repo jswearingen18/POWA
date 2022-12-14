@@ -23,8 +23,6 @@ module.exports = () => {
         title: "Jate PWA",
       }),
 
-      new GenerateSW(),
-
       new InjectManifest({
         swSrc: "./src-sw.js",
         swDest: "src-sw.js",
